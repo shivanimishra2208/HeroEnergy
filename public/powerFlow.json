@@ -1,0 +1,38 @@
+{
+  "powerFlow": [
+    {
+      "type": "microgrid",
+      "label": "MICROGRID",
+      "units": "kW"
+    },
+    {
+      "type": "solar",
+      "label": "SOLAR",
+      "units": "kW",
+      "value": -10,
+      "socValue": 0
+      
+    },
+    {
+      "type": "battery",
+      "label": "BATTERY",
+      "units": "kW",
+      "value": -30,
+      "socValue": 21.6
+    },
+    {
+      "type": "ev",
+      "label": "EV",
+      "units": "kW",
+      "value": -10,
+      "socValue": 0
+    },
+    {
+      "type": "load",
+      "label": "LOAD",
+      "units": "kW",
+      "value": 20,
+      "socValue": 0
+    }
+  ]
+}
